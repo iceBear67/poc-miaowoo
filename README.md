@@ -10,6 +10,8 @@ https://github.com/iceBear67/poc-miaowoo/tree/47abab96a1becb2dac1caa0994a94ec104
 
 本仓库使用 curl 模拟不同 User-Agent 的请求访问 Yumc 的服务器并且整个流程在 GitHub Action 服务器上运行，无介入，运行时结果无法被 GitHub Runner 和喵呜以外的任何人修改。
 
+https://github.com/iceBear67/poc-miaowoo/actions/runs/7472662191
+
 [该 commit 上运行的脚本](https://github.com/iceBear67/poc-miaowoo/blob/47abab96a1becb2dac1caa0994a94ec10407d422/.github/workflows/blank.yml#L20-L22)
 
 人话版:
