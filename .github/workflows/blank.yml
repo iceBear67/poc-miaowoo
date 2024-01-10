@@ -14,7 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        persist-credentials: true
         fetch-depth: 0
     - name: Fetch data from yumc server
       run: |
@@ -26,7 +25,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "Add payloads from Yumc server."
+        git commit -a -m "Add payloads from Yumc server."
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
