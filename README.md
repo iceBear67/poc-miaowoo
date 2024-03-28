@@ -4,6 +4,9 @@
 
 有关 RCE 的危害，详见[这篇文章](https://rentry.org/miaowoo)
 
+2024.3.28  
+bbs大概是倒了，我也不打算等什么时候再实锤了，没什么意思。干脆把仓库直接公开出来，知道的人留个眼就好，狗改不了吃屎。
+
 # Validation
 
 https://github.com/iceBear67/poc-miaowoo/tree/47abab96a1becb2dac1caa0994a94ec10407d422
